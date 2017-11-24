@@ -5,6 +5,15 @@ public class Movies {
 	private int moveproduce;
 	private String movietime;
 	private int moviedate;
+	private String movieprop;
+
+	public String getMovieprop() {
+		return movieprop;
+	}
+
+	public void setMovieprop(String movieprop) {
+		this.movieprop = movieprop;
+	}
 
 	public int getMoviedate() {
 		return moviedate;
