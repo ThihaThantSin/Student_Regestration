@@ -4,6 +4,15 @@ public class Movies {
 	private String moviename;
 	private int moveproduce;
 	private String movietime;
+	private int moviedate;
+
+	public int getMoviedate() {
+		return moviedate;
+	}
+
+	public void setMoviedate(int moviedate) {
+		this.moviedate = moviedate;
+	}
 
 	public String getMoviename() {
 		return moviename;
