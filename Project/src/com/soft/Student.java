@@ -5,6 +5,15 @@ public class Student {
 	private String name;
 	private String address;
 	private String street;
+	private String division;
+
+	public String getDivision() {
+		return division;
+	}
+
+	public void setDivision(String division) {
+		this.division = division;
+	}
 
 	public String getStreet() {
 		return street;
